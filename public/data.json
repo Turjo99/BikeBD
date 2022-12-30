@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Yamaha R15 V4",
+    "price": 555,
+    "img": "https://img.indianautosblog.com/2020/12/17/2021-yamaha-r3-matte-black-right-side-ace7.jpg",
+    "details": "The beast with 155cc powered engine with 40kmpl mileage"
+  },
+  {
+    "id": 2,
+    "name": "Yamaha MT 15",
+    "price": 428,
+    "img": "https://bikekhoj.com/wp-content/uploads/2022/09/MT-15-V2-Model-Image.jpg",
+    "details": "The beast with 155cc powered engine with 40kmpl mileage"
+  },
+  {
+    "id": 3,
+    "name": "Bajaj Pulsar NS 160",
+    "price": 192,
+    "img": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-ns-160/white/00.png",
+    "details": "dual disk brake with 160cc air cooled engine"
+  },
+  {
+    "id": 4,
+    "name": "Suzuki Gixxer 150",
+    "price": 241000,
+    "img": "https://ic1.maxabout.us/autos/tw_india//N/2022/2/new-suzuki-gixxer-150-price-in-india-2.jpg",
+    "details": "air cooled 155cc engine with 40kmpl mileage"
+  },
+  {
+    "id": 5,
+    "name": "Yamaha Fazer FI v2",
+    "price": 292,
+    "img": "https://5.imimg.com/data5/VO/QC/BU/SELLER-10578870/yamaha-fazer-fi-149-cc-marble-white-motorcycle-500x500.jpg",
+    "details": "149cc air cooled engine with 45kmpl mileage boost"
+  },
+  {
+    "id": 6,
+    "name": "TVS Apache RTR 160",
+    "price": 185,
+    "img": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/97549/apache-rtr-160-4v-right-front-three-quarter-4.jpeg?isig=0",
+    "details": "fashionable dual disk brake with 160cc engine"
+  }
+]

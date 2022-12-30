@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Banner from "./Components/Banner";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
+import ServicePage from "./Components/ServicePage";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,7 +24,7 @@ function App() {
         },
         {
           path: "services",
-          element: <Services></Services>,
+          element: <ServicePage></ServicePage>,
         },
         {
           path: "contact",
