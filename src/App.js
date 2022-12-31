@@ -7,6 +7,8 @@ import Banner from "./Components/Banner";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import ServicePage from "./Components/ServicePage";
+import AddProduct from "./Components/AddProduct";
+import toast, { Toaster } from "react-hot-toast";
 
 function App() {
   const router = createBrowserRouter([
@@ -30,11 +32,16 @@ function App() {
           path: "contact",
           element: <Contact></Contact>,
         },
+        {
+          path: "addproduct",
+          element: <AddProduct></AddProduct>,
+        },
       ],
     },
   ]);
   return (
     <>
+      <Toaster />
       <RouterProvider router={router}></RouterProvider>
     </>
   );
