@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import SingleProduct from "./SingleProduct";
 import { toast } from "react-hot-toast";
+import Services from "./Services";
 
 const ServicePage = () => {
   //   const [products, setProducts] = useState([]);
@@ -44,7 +45,8 @@ const ServicePage = () => {
           <Link to={"/addproduct"}>Add a product</Link>
         </button>
       </div>
-      <div>
+      <Services></Services>
+      {/* <div>
         <h1 className=" font-bold text-5xl my-5 text-center">Our Products</h1>
 
         <div className="grid grid-cols-3 gap-5">
@@ -71,7 +73,7 @@ const ServicePage = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

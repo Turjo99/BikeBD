@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 import ServicePage from "./Components/ServicePage";
 import AddProduct from "./Components/AddProduct";
 import toast, { Toaster } from "react-hot-toast";
+import Update from "./Components/Update";
 
 function App() {
   const router = createBrowserRouter([
@@ -25,7 +26,7 @@ function App() {
           element: <Banner></Banner>,
         },
         {
-          path: "services",
+          path: "products",
           element: <ServicePage></ServicePage>,
         },
         {
@@ -35,6 +36,18 @@ function App() {
         {
           path: "addproduct",
           element: <AddProduct></AddProduct>,
+        },
+        {
+          path: "/product/:id",
+          element: <Update></Update>,
+          loader: ({ params }) =>
+            fetch(`http://localhost:5000/product/${params.id}`),
+        },
+        {
+          path: "/products/product/:id",
+          element: <Update></Update>,
+          loader: ({ params }) =>
+            fetch(`http://localhost:5000/product/${params.id}`),
         },
       ],
     },

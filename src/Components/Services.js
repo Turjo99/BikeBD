@@ -40,13 +40,20 @@ const Services = () => {
           <div>
             <div className="card w-96 h-[450px] bg-base-100 shadow-xl">
               <figure className="">
-                <img src={product.img} alt="Shoes" className="rounded-xl" />
+                <img
+                  src={product.img}
+                  alt="Shoes"
+                  className="rounded-xl w-full h-[400px]"
+                />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title">{product.name}</h2>
+                <p className=" font-bold">{product.price} Taka</p>
                 <p>{product.details}</p>
                 <div className="card-actions flex justify-between">
-                  <Link className="btn btn-outline">Edit</Link>
+                  <button className="btn bg-sky-700 text-white ">
+                    <Link to={`product/${product._id}`}>Edit</Link>
+                  </button>
                   <button
                     onClick={() => handleDelete(product._id)}
                     className="btn btn-outline"
